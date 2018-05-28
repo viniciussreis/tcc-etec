@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LocalCode</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="cadastroLocal">Cadastro de Local</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Nome das Sessões-->
+    <string name="codigo">Código</string>
+    <string name="busca">Busca</string>
+
+    <!--Nome dos Hints-->
+    <string name="insiraCodigo">Insira o código</string>
+
+    <!--Nome dos Botões-->
+    <string name="buscar">Buscar</string>
+
+    <!--Nome dos TextView-->
+    <string name = "nome">Nome:</string>
+    <string name = "cor">Cor:</string>
+    <string name = "marca">Marca:</string>
+    <string name = "modelo">Modelo:</string>
+    <string name = "tamanho">Tamanho</string>
+    <string name="local">Selecione o Local</string>
+
+    <!--nome dos spiners-->
+    <string name="estante">Estante</string>
+    <string name="prateleira">Prateleira</string>
+    <string name="coluna">Coluna</string>
+
+    <!--botão-->
+    <string name="cadastrar">Cadastrar</string>
+
+</resources>

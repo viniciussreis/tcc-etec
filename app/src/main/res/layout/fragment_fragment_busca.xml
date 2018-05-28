@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.localcode60.fragment.FragmentBusca">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--TIPO-->
+    <TextView
+        android:id="@+id/TipoBuscanNull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"/>
+
+    <Spinner
+        android:id="@+id/spiTipo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"></Spinner>
+
+    <!--Tamanho-->
+    <TextView
+        android:id="@+id/TamanhoBuscaNull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamanho"
+        android:textSize="25dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"/>
+
+    <NumberPicker
+        android:id="@+id/npTamanho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="60dp"
+        ></NumberPicker>
+
+    <!--Marca-->
+
+    <TextView
+        android:id="@+id/MarcaBuscaNull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca"
+        android:textSize="25dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="145dp"/>
+
+    <Spinner
+        android:id="@+id/spiMarca"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="185dp"
+        ></Spinner>
+
+    <!--Cor-->
+
+    <TextView
+        android:id="@+id/CorBuscaNull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cor"
+        android:textSize="25dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="250dp"/>
+
+    <Spinner
+        android:id="@+id/spiCor"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"></Spinner>
+
+    <!--Botao-->
+
+    <Button
+        android:id="@+id/btnBuscarPersonalizado"
+        android:layout_width="@dimen/btnBusca"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/buscar"
+        android:textColor="@color/colorTextButton"
+        android:backgroundTint="@color/colorButton"
+        android:layout_marginTop="350dp"/>
+
+</FrameLayout>
